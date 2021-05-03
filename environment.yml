@@ -1,4 +1,4 @@
-name: uep239
+name: LivingAnalysis
 channels:
   - conda-forge
 dependencies:
@@ -8,15 +8,11 @@ dependencies:
   - scipy
   - numpy
   - pandas
-  - shapely
   - geopandas
   - geopy
   - geojson
-  - bokeh
   - matplotlib
-  - seaborn
   - folium
-  - mplleaflet
   - networkx
   - osmnx
   - rasterio
