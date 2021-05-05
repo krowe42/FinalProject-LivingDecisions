@@ -7,17 +7,27 @@ for half a year pre-Covid, I was interested to find out if there was in fact a m
 in the following variables, for the reasons below:  
 
 - amount of impervious surface area
-    - I'd like to live
+    - I'd like to live somewhere with a good amount of green space
+- tree canopy
+    - The more trees, the better. I'd rather live in a forest, but this is where we are for now.
 - proximity to farmer's markets
-
+    - Who doesn't like fresh veggies?
 - proximity to libraries
+    - I've spent too much on books in grad school, I need to borrow for a while
+- Boston land cover
+    - I'm curious to see if there's a way to live in a low intensity developed area - but it's not a dealbreaker.
+- age data from the 2019 ACS 5-year estimates
+    - It'd be nice to hang out with people around my age. But also not a dealbreaker.
 
 
+## If you want to do something similar:
+Create an environment (mine is python-based, but I added a few things), launch jupyter lab, and get that notebook fired up!
 
-## instructions on how to run project
-- create environment using....
-- lauch jupyter lab
-- run the notebook
+You can use my data, but I'm guessing your wants and desires are slightly different from mine. Maybe you don't ride a 
+bike everywhere and you want to know if there are metro stops - or a hundred other things. You can replace similar data 
+(vector for vector, raster for raster, tabular for tabular) within the analysis and do your own thing. Just make sure 
+you change your ranking system accordingly.
+
 
 ## cite all data used (Uku's including citations) with short descriptions and where the data directory is
 - what they are, where they come from, if you've done any pre-processing
