@@ -14,6 +14,8 @@ in the following variables, for the reasons below:
     - Who doesn't like fresh veggies?
 - proximity to libraries
     - I've spent too much on books in grad school, I need to borrow for a while
+- proximity to restaurants
+    - all that money I'm not spending on books, I can spend on food! Right? 
 - Boston land cover
     - I'm curious to see if there's a way to live in a low intensity developed area - but it's not a dealbreaker.
 - age data from the 2019 ACS 5-year estimates
