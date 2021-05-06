@@ -2,7 +2,7 @@
 
 ## Summary
 
-This short notebook is a preliminary attempt to understand my ideal neighborhood in Boston. Having lived in Somerville 
+This short notebook is a preliminary attempt to find my ideal neighborhood in Boston. Having lived in Somerville 
 for half a year pre-Covid, I was interested to find out if there was in fact a more suitable area. I was most interested 
 in the following variables, for the reasons below:  
 
@@ -23,10 +23,10 @@ in the following variables, for the reasons below:
 
 
 ## If you want to do something similar:
-Create an environment (mine is python-based, but I added a few things), launch jupyter lab, and get that notebook fired up!
+Create an environment (mine is python-based, but I added a few things), activate it, launch jupyter lab, and get that notebook fired up!
 
-You can use my data, but I'm guessing your wants and desires are slightly different from mine. Maybe you don't ride a 
-bike everywhere and you want to know if there are metro stops - or a hundred other things. You can replace similar data 
+You're welcome to use my data, but I'm guessing your wants and desires are slightly different from mine. Maybe you don't ride a 
+bike everywhere and you want to account for metro stop proximity - or a hundred other things. You can replace similar data 
 (vector for vector, raster for raster, tabular for tabular) within the analysis and do your own thing. Just make sure 
 you change your ranking system accordingly.
 
