@@ -31,10 +31,18 @@ bike everywhere and you want to account for metro stop proximity - or a hundred 
 you change your ranking system accordingly.
 
 
-## cite all data used (Uku's including citations) with short descriptions and where the data directory is
-- what they are, where they come from, if you've done any pre-processing
+## Data used 
+- with short descriptions and 
+- where the data directory is
+- what they are, where they come from
 
 
-## brief overview of packages used
+## Brief overview of packages used
 
-## acknowledgments and referenced resources
+## Acknowledgments
+
+## Resources Used
+
+- UEP239 Homeworks
+- Uku Uustalu's brain
+- https://stackoverflow.com/questions/20970279/how-to-do-a-left-right-and-mid-of-a-string-in-a-pandas-dataframe#20970328
