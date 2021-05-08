@@ -34,43 +34,19 @@ you change your ranking system accordingly.
 ### Data used 
 I did not personally do any pre-processing on these data; everything you see below was loaded into the notebook and processed there. 
 However, the raster data was clipped and projected before I got to it (thanks Uku!). 
-- with short descriptions and 
-- where the data directory is
-- what they are, where they come from
 
-|                   Data Description                 |               File Location              |    File Type   | Source  |
-| :------------------------------------------------: | :--------------------------------------: | :------------: | :---------------: |
-| Boundaries of Massachusetts Planning Organizations | data > vector > MassDOT > MPO_Boundaries | ESRI Shapefile | [MassDOT](https://geo-massdot.opendata.arcgis.com/datasets/mpo-boundaries) |
-|               10%              |                20%             |    High suitability   |          4        |
-|               20%              |                60%             |   Medium suitability  |          3        |
-|               60%              |                100%            |    Low suitability    |          2        |
-|               100%             |                ...             | Very low suitability  |          1        |
-
-```{list-table}
-:header-rows: 1
-:widths: 10 20 5 5 5 5
-
-* - Filename
-  - Description
-  - Format
-  - Feature
-  - CRS
-  - Source
-* - `MPO_Boundaries`
-  - Boundaries of Massachusetts Metropolitan Planning Organizations
-  - ESRI Shapefile
-  - Polygon
-  - [EPSG:3857](https://epsg.io/3857)
-  - [MassDOT](https://geo-massdot.opendata.arcgis.com/datasets/mpo-boundaries)
-* - `tl_2010_25_zcta510`
-  - 2010 Massachusetts 5-Digit Zip Code Tabulation Area (ZCTA) Boundaries
-  - ESRI Shapefile
-  - Polygon
-  - [EPSG:4269](https://epsg.io/4269)
-  - [Census Bureau](https://www.census.gov/cgi-bin/geo/shapefiles/)
-```
-
-
+|                       Data Description                       |                     File Location                   |    File Type   | Source  |
+| :----------------------------------------------------------: | :-------------------------------------------------: | :------------: | :---------------: |
+|      Boundaries of Massachusetts Planning Organizations      |       data > vector > MassDOT > MPO_Boundaries      | ESRI Shapefile | [MassDOT](https://geo-massdot.opendata.arcgis.com/datasets/mpo-boundaries) |
+|                Massachusetts ZCTA Boundaries                 |     data > vector > Census > tl_2010_25_zcta510     | ESRI Shapefile | [US Census Bureau](https://www.census.gov/cgi-bin/geo/shapefiles/) |
+|                    ACS Age & Sex Estimates                   |          data > tabular > ACSST5Y2019.S0101         |       csv      | [US Census Bureau](https://www.census.gov/acs/www/data/data-tables-and-tools/subject-tables/) |
+|                Massachusetts Farmers Markets                 |      data > vector > MassGIS > FARMERSMARKETS_PT    | ESRI Shapefile | [MassGIS](https://docs.digital.mass.gov/dataset/massgis-data-farmers-markets) |
+|                Massachusetts Public Libraries                |        data > vector > MassGIS > LIBRARIES_PT       | ESRI Shapefile |[MassGIS](https://docs.digital.mass.gov/dataset/massgis-data-libraries)|
+|                 Massachusetts State Outline                  |      data > vector > MassGIS > OUTLINE25K_POLY      | ESRI Shapefile |[MassGIS](https://docs.digital.mass.gov/dataset/massgis-data-state-outlines)|
+|                Boston Region MPO Restaurants                 |                    OpenStreetMap                    |  |[OpenStreetMap](https://www.openstreetmap.org/)|
+|                 Impervious Surface, Boston                   |  data > raster > NLCD > NLCD_2016_Impervious_Boston |     GeoTIFF    |[Multi-Resolution Land Characteristics Consortium (MRLC)](https://www.mrlc.gov/data/nlcd-2016-percent-developed-imperviousness-conus)|
+|                      Land Cover, Boston                      |  data > raster > NLCD > NLCD_2016_Land_Cover_Boston |     GeoTIFF    |[MRLC](https://www.mrlc.gov/data/nlcd-2016-land-cover-conus)|
+|                      Tree Canopy, Boston                     | data > raster > NLCD > NLCD_2016_Tree_Canopy_Boston |     GeoTIFF    |[MRLC](https://www.mrlc.gov/data/nlcd-2016-usfs-tree-canopy-cover-conus)|
 
 ### Brief overview of packages used
 
