@@ -38,9 +38,9 @@ However, the raster data was clipped and projected before I got to it (thanks Uk
 - where the data directory is
 - what they are, where they come from
 
-| Min Imperviousness (Inclusive) | Max Imperviousness (Exclusive) |   Suitability Level   | Suitability Score |
-| :----------------------------: | :----------------------------: | :-------------------: | :---------------: |
-|               ...              |                10%             | Very high suitability |          5        |
+|                   Data Description                 |               File Location              |    File Type   | Source  | Link |
+| :------------------------------------------------: | :--------------------------------------: | :------------: | :---------------: | :---------------: |
+| Boundaries of Massachusetts Planning Organizations | data > vector > MassDOT > MPO_Boundaries | ESRI Shapefile | [MassDOT](https://geo-massdot.opendata.arcgis.com/datasets/mpo-boundaries) | https://geo-massdot.opendata.arcgis.com/datasets/mpo-boundaries |
 |               10%              |                20%             |    High suitability   |          4        |
 |               20%              |                60%             |   Medium suitability  |          3        |
 |               60%              |                100%            |    Low suitability    |          2        |
