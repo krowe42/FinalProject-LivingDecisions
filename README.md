@@ -1,6 +1,6 @@
 # uep239-FinalProject
 
-## Summary
+### Summary
 
 This short notebook is a preliminary attempt to find my ideal neighborhood in Boston. Having lived in Somerville 
 for half a year pre-Covid, I was interested to find out if there was in fact a more suitable area. I was most interested 
@@ -22,7 +22,7 @@ in the following variables, for the reasons below:
     - It'd be nice to hang out with people around my age. But also not a dealbreaker.
 
 
-## If you want to do something similar:
+### If you want to do something similar:
 Create an environment (mine is python-based, but I added a few things), activate it, launch jupyter lab, and get that notebook fired up!
 
 You're welcome to use my data, but I'm guessing your wants and desires are slightly different from mine. Maybe you don't ride a 
@@ -31,10 +31,20 @@ bike everywhere and you want to account for metro stop proximity - or a hundred 
 you change your ranking system accordingly.
 
 
-## Data used 
+### Data used 
+I did not personally do any pre-processing on these data; everything you see below was loaded into the notebook and processed there. 
+However, the raster data was clipped and projected before I got to it (thanks Uku!). 
 - with short descriptions and 
 - where the data directory is
 - what they are, where they come from
+
+| Min Imperviousness (Inclusive) | Max Imperviousness (Exclusive) |   Suitability Level   | Suitability Score |
+| :----------------------------: | :----------------------------: | :-------------------: | :---------------: |
+|               ...              |                10%             | Very high suitability |          5        |
+|               10%              |                20%             |    High suitability   |          4        |
+|               20%              |                60%             |   Medium suitability  |          3        |
+|               60%              |                100%            |    Low suitability    |          2        |
+|               100%             |                ...             | Very low suitability  |          1        |
 
 ```{list-table}
 :header-rows: 1
@@ -62,12 +72,13 @@ you change your ranking system accordingly.
 
 
 
-## Brief overview of packages used
+### Brief overview of packages used
 
-## Acknowledgments
+### Acknowledgments
+- OpenStreetMap
 
-## Resources Used
+### Resources Used
 
-- UEP239 Homeworks
+- UEP239 previous homework exercises 
 - Uku Uustalu's brain
 - https://stackoverflow.com/questions/20970279/how-to-do-a-left-right-and-mid-of-a-string-in-a-pandas-dataframe#20970328
