@@ -36,6 +36,31 @@ you change your ranking system accordingly.
 - where the data directory is
 - what they are, where they come from
 
+```{list-table}
+:header-rows: 1
+:widths: 10 20 5 5 5 5
+
+* - Filename
+  - Description
+  - Format
+  - Feature
+  - CRS
+  - Source
+* - `MPO_Boundaries`
+  - Boundaries of Massachusetts Metropolitan Planning Organizations
+  - ESRI Shapefile
+  - Polygon
+  - [EPSG:3857](https://epsg.io/3857)
+  - [MassDOT](https://geo-massdot.opendata.arcgis.com/datasets/mpo-boundaries)
+* - `tl_2010_25_zcta510`
+  - 2010 Massachusetts 5-Digit Zip Code Tabulation Area (ZCTA) Boundaries
+  - ESRI Shapefile
+  - Polygon
+  - [EPSG:4269](https://epsg.io/4269)
+  - [Census Bureau](https://www.census.gov/cgi-bin/geo/shapefiles/)
+```
+
+
 
 ## Brief overview of packages used
 
