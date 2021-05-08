@@ -48,7 +48,14 @@ However, the raster data was clipped and projected before I got to it (thanks Uk
 |                      Land Cover, Boston                      |  data > raster > NLCD > NLCD_2016_Land_Cover_Boston |     GeoTIFF    |[MRLC](https://www.mrlc.gov/data/nlcd-2016-land-cover-conus)|
 |                      Tree Canopy, Boston                     | data > raster > NLCD > NLCD_2016_Tree_Canopy_Boston |     GeoTIFF    |[MRLC](https://www.mrlc.gov/data/nlcd-2016-usfs-tree-canopy-cover-conus)|
 
-### Brief overview of packages used
+### Packages used
+- rasterio
+- numpy
+- geopandas
+- pandas
+- matplotlib.pyplot
+- scipy (ndimage)
+- rasterstats (zonal_stats)
 
 ### Acknowledgments
 - OpenStreetMap
