@@ -56,6 +56,7 @@ However, the raster data was clipped and projected before I got to it (thanks Uk
 - matplotlib.pyplot
 - scipy (ndimage)
 - rasterstats (zonal_stats)
+- folium
 
 ### Acknowledgments
 - OpenStreetMap
@@ -65,3 +66,4 @@ However, the raster data was clipped and projected before I got to it (thanks Uk
 - UEP239 previous homework exercises 
 - Uku Uustalu's brain
 - https://stackoverflow.com/questions/20970279/how-to-do-a-left-right-and-mid-of-a-string-in-a-pandas-dataframe#20970328
+- https://python-visualization.github.io/folium/quickstart.html
