@@ -57,6 +57,7 @@ However, the raster data was clipped and projected before I got to it (thanks Uk
 - scipy (ndimage)
 - rasterstats (zonal_stats)
 - folium
+- contextily
 
 ### Acknowledgments
 - OpenStreetMap
@@ -67,3 +68,4 @@ However, the raster data was clipped and projected before I got to it (thanks Uk
 - Uku Uustalu's brain
 - https://stackoverflow.com/questions/20970279/how-to-do-a-left-right-and-mid-of-a-string-in-a-pandas-dataframe#20970328
 - https://python-visualization.github.io/folium/quickstart.html
+- https://contextily.readthedocs.io/en/latest/reference.html
